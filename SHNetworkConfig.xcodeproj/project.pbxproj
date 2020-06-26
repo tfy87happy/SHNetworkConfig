@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D19B65F9A1AD345BC369D3E /* Pods_SHNetworkConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC0448C62F35882705A8043C /* Pods_SHNetworkConfig.framework */; };
+		D10D222224A5F03300CB533D /* SHNetworkConfigAPEZCameraHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D10D221024A5F03300CB533D /* SHNetworkConfigAPEZCameraHandler.m */; };
+		D10D222324A5F03300CB533D /* SHNetworkConfigBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D10D221424A5F03300CB533D /* SHNetworkConfigBaseHandler.m */; };
+		D10D222424A5F03300CB533D /* SHNetworkConfigAPGeLiHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D10D221624A5F03300CB533D /* SHNetworkConfigAPGeLiHandler.m */; };
+		D10D222524A5F03300CB533D /* SHNetworkConfigMideaHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D10D221824A5F03300CB533D /* SHNetworkConfigMideaHandler.m */; };
+		D10D222624A5F03300CB533D /* SHNetworkConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D10D221A24A5F03300CB533D /* SHNetworkConfigManager.m */; };
+		D10D222724A5F03300CB533D /* SHNetworkConfigModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D10D221D24A5F03300CB533D /* SHNetworkConfigModel.m */; };
+		D10D222824A5F03300CB533D /* SHNetworkConfigHandlerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D10D222024A5F03300CB533D /* SHNetworkConfigHandlerFactory.m */; };
 		D1114B2B2498E221009E7354 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1114B2A2498E220009E7354 /* AppDelegate.m */; };
 		D1114B2E2498E221009E7354 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1114B2D2498E221009E7354 /* SceneDelegate.m */; };
 		D1114B312498E221009E7354 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1114B302498E221009E7354 /* ViewController.m */; };
@@ -17,6 +25,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DBD69F59931C3BC60213E02 /* Pods-SHNetworkConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNetworkConfig.release.xcconfig"; path = "Target Support Files/Pods-SHNetworkConfig/Pods-SHNetworkConfig.release.xcconfig"; sourceTree = "<group>"; };
+		B9630CA124201FCC56B13FBF /* Pods-SHNetworkConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNetworkConfig.debug.xcconfig"; path = "Target Support Files/Pods-SHNetworkConfig/Pods-SHNetworkConfig.debug.xcconfig"; sourceTree = "<group>"; };
+		D10D221024A5F03300CB533D /* SHNetworkConfigAPEZCameraHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigAPEZCameraHandler.m; sourceTree = "<group>"; };
+		D10D221124A5F03300CB533D /* SHNetworkConfigAPGeLiHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigAPGeLiHandler.h; sourceTree = "<group>"; };
+		D10D221224A5F03300CB533D /* SHNetworkConfigProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigProtocol.h; sourceTree = "<group>"; };
+		D10D221324A5F03300CB533D /* SHNetworkConfigMideaHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigMideaHandler.h; sourceTree = "<group>"; };
+		D10D221424A5F03300CB533D /* SHNetworkConfigBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigBaseHandler.m; sourceTree = "<group>"; };
+		D10D221524A5F03300CB533D /* SHNetworkConfigAPEZCameraHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigAPEZCameraHandler.h; sourceTree = "<group>"; };
+		D10D221624A5F03300CB533D /* SHNetworkConfigAPGeLiHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigAPGeLiHandler.m; sourceTree = "<group>"; };
+		D10D221724A5F03300CB533D /* SHNetworkConfigBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigBaseHandler.h; sourceTree = "<group>"; };
+		D10D221824A5F03300CB533D /* SHNetworkConfigMideaHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigMideaHandler.m; sourceTree = "<group>"; };
+		D10D221924A5F03300CB533D /* SHNetworkConfigDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigDefine.h; sourceTree = "<group>"; };
+		D10D221A24A5F03300CB533D /* SHNetworkConfigManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigManager.m; sourceTree = "<group>"; };
+		D10D221C24A5F03300CB533D /* SHNetworkConfigModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigModel.h; sourceTree = "<group>"; };
+		D10D221D24A5F03300CB533D /* SHNetworkConfigModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigModel.m; sourceTree = "<group>"; };
+		D10D221E24A5F03300CB533D /* SHNetworkConfigManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigManager.h; sourceTree = "<group>"; };
+		D10D222024A5F03300CB533D /* SHNetworkConfigHandlerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkConfigHandlerFactory.m; sourceTree = "<group>"; };
+		D10D222124A5F03300CB533D /* SHNetworkConfigHandlerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkConfigHandlerFactory.h; sourceTree = "<group>"; };
 		D1114B262498E220009E7354 /* SHNetworkConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHNetworkConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1114B292498E220009E7354 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1114B2A2498E220009E7354 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +55,7 @@
 		D1114B382498E225009E7354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1114B3A2498E225009E7354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1114B3B2498E225009E7354 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC0448C62F35882705A8043C /* Pods_SHNetworkConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SHNetworkConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +63,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D19B65F9A1AD345BC369D3E /* Pods_SHNetworkConfig.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3535C6B96076FEF936D365F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9630CA124201FCC56B13FBF /* Pods-SHNetworkConfig.debug.xcconfig */,
+				0DBD69F59931C3BC60213E02 /* Pods-SHNetworkConfig.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D10D220E24A5F03300CB533D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D10D221924A5F03300CB533D /* SHNetworkConfigDefine.h */,
+				D10D221E24A5F03300CB533D /* SHNetworkConfigManager.h */,
+				D10D221A24A5F03300CB533D /* SHNetworkConfigManager.m */,
+				D10D220F24A5F03300CB533D /* Handler */,
+				D10D221B24A5F03300CB533D /* Model */,
+				D10D221F24A5F03300CB533D /* Factory */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D10D220F24A5F03300CB533D /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				D10D221024A5F03300CB533D /* SHNetworkConfigAPEZCameraHandler.m */,
+				D10D221124A5F03300CB533D /* SHNetworkConfigAPGeLiHandler.h */,
+				D10D221224A5F03300CB533D /* SHNetworkConfigProtocol.h */,
+				D10D221324A5F03300CB533D /* SHNetworkConfigMideaHandler.h */,
+				D10D221424A5F03300CB533D /* SHNetworkConfigBaseHandler.m */,
+				D10D221524A5F03300CB533D /* SHNetworkConfigAPEZCameraHandler.h */,
+				D10D221624A5F03300CB533D /* SHNetworkConfigAPGeLiHandler.m */,
+				D10D221724A5F03300CB533D /* SHNetworkConfigBaseHandler.h */,
+				D10D221824A5F03300CB533D /* SHNetworkConfigMideaHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		D10D221B24A5F03300CB533D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D10D221C24A5F03300CB533D /* SHNetworkConfigModel.h */,
+				D10D221D24A5F03300CB533D /* SHNetworkConfigModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D10D221F24A5F03300CB533D /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				D10D222024A5F03300CB533D /* SHNetworkConfigHandlerFactory.m */,
+				D10D222124A5F03300CB533D /* SHNetworkConfigHandlerFactory.h */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
 		D1114B1D2498E220009E7354 = {
 			isa = PBXGroup;
 			children = (
 				D1114B282498E220009E7354 /* SHNetworkConfig */,
 				D1114B272498E220009E7354 /* Products */,
+				3535C6B96076FEF936D365F1 /* Pods */,
+				E5CF8465F001DD6EAF10CD8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +153,7 @@
 				D1114B2D2498E221009E7354 /* SceneDelegate.m */,
 				D1114B2F2498E221009E7354 /* ViewController.h */,
 				D1114B302498E221009E7354 /* ViewController.m */,
+				D10D220E24A5F03300CB533D /* Manager */,
 				D1114B322498E221009E7354 /* Main.storyboard */,
 				D1114B352498E225009E7354 /* Assets.xcassets */,
 				D1114B372498E225009E7354 /* LaunchScreen.storyboard */,
@@ -76,6 +163,14 @@
 			path = SHNetworkConfig;
 			sourceTree = "<group>";
 		};
+		E5CF8465F001DD6EAF10CD8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC0448C62F35882705A8043C /* Pods_SHNetworkConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1114B3F2498E225009E7354 /* Build configuration list for PBXNativeTarget "SHNetworkConfig" */;
 			buildPhases = (
+				81453AC7320A5424B71131D2 /* [CP] Check Pods Manifest.lock */,
 				D1114B222498E220009E7354 /* Sources */,
 				D1114B232498E220009E7354 /* Frameworks */,
 				D1114B242498E220009E7354 /* Resources */,
@@ -141,15 +237,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81453AC7320A5424B71131D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SHNetworkConfig-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1114B222498E220009E7354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D1114B312498E221009E7354 /* ViewController.m in Sources */,
+				D10D222724A5F03300CB533D /* SHNetworkConfigModel.m in Sources */,
+				D10D222524A5F03300CB533D /* SHNetworkConfigMideaHandler.m in Sources */,
 				D1114B2B2498E221009E7354 /* AppDelegate.m in Sources */,
 				D1114B3C2498E225009E7354 /* main.m in Sources */,
 				D1114B2E2498E221009E7354 /* SceneDelegate.m in Sources */,
+				D10D222424A5F03300CB533D /* SHNetworkConfigAPGeLiHandler.m in Sources */,
+				D10D222624A5F03300CB533D /* SHNetworkConfigManager.m in Sources */,
+				D10D222224A5F03300CB533D /* SHNetworkConfigAPEZCameraHandler.m in Sources */,
+				D10D222324A5F03300CB533D /* SHNetworkConfigBaseHandler.m in Sources */,
+				D10D222824A5F03300CB533D /* SHNetworkConfigHandlerFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +415,7 @@
 		};
 		D1114B402498E225009E7354 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9630CA124201FCC56B13FBF /* Pods-SHNetworkConfig.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +432,7 @@
 		};
 		D1114B412498E225009E7354 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBD69F59931C3BC60213E02 /* Pods-SHNetworkConfig.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
